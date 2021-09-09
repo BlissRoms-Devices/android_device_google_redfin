@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The BlissRoms Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,8 +19,8 @@
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common BlissRoms stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/redfin/aosp_redfin.mk)
@@ -27,7 +28,7 @@ $(call inherit-product, device/google/redfin/aosp_redfin.mk)
 -include device/google/redfin/device-lineage.mk
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_redfin
+PRODUCT_NAME := bliss_redfin
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 5
 TARGET_MANUFACTURER := Google

@@ -13,8 +13,8 @@
  },
  {
     "remote": "github",
-    "repository": "TheMuppets/proprietary_vendor_google",
+    "repository": "BlissRoms-Devices/proprietary_vendor_google",
     "target_path": "vendor/google",
-    "revision": "lineage-18.1"
+    "revision": "r"
  }
 ]

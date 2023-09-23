@@ -3,7 +3,6 @@
 # product partition
 
 # AiAi
-product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
 product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
 
 # Audio
@@ -100,9 +99,6 @@ product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
 # Camera extensions
 system_ext/etc/permissions/com.google.android.camera.extensions.xml
 system_ext/framework/com.google.android.camera.extensions.jar
-
-# HBM - from barbet AP1A.240405.002
-system_ext/priv-app/HbmSVManager/HbmSVManager.apk|b7c4bd54334714da94f1bcfb16fb44edbfd273b9
 
 # Hotword
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml

@@ -20,9 +20,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_redfin_64_with_32.mk \
     $(LOCAL_DIR)/vf/aosp_redfin_vf.mk \
     $(LOCAL_DIR)/aosp_redfin_hwasan.mk \
-    $(LOCAL_DIR)/lineage_redfin.mk
+    $(LOCAL_DIR)/bliss_redfin.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_redfin-trunk_staging-userdebug \
     aosp_redfin_vf-trunk_staging-userdebug \
-    lineage_redfin-trunk_staging-userdebug
+    bliss_redfin-trunk_staging-userdebug

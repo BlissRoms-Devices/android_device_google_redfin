@@ -1,0 +1,20 @@
+[ 
+ {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/android_device_google_redbull",
+    "target_path": "device/google/redbull",
+    "branch": "universe"
+ },      
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_kernel_google_redbull",
+    "target_path": "kernel/google/redbull",
+    "branch": "lineage-21"
+ },
+ {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/proprietary_vendor_google_redfin",
+    "target_path": "vendor/google/redfin",
+    "branch": "universe"
+ }
+]
